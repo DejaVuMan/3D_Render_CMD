@@ -143,7 +143,7 @@
     <ClCompile Include="3D_Firaxis.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Users\szusz\Desktop\olcConsoleGameEngine.h" />
+    <ClInclude Include="..\..\headers\olcConsoleGameEngine.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

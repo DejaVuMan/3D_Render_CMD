@@ -20,7 +20,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Users\szusz\Desktop\olcConsoleGameEngine.h">
+    <ClInclude Include="..\..\headers\olcConsoleGameEngine.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
