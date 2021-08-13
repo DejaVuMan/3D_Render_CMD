@@ -336,6 +336,7 @@ int main()
         demo.Start(); // Roughly uses 2MB of memory and 1% CPU Utilization on i7 7700HQ with Single Channel DDR4-2400 16GB
     else
         return 3; // 3 error code for failure to create window
+    *((unsigned int*)0) = 0xDEAD;
     return 0;
 }
 
