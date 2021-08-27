@@ -337,6 +337,7 @@ int main()
     else
         return 3; // 3 error code for failure to create window
     *((unsigned int*)0) = 0xDEAD;
+    int a = 0; int b = 5 / a;
     return 0;
 }
 
