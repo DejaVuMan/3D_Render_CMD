@@ -223,7 +223,7 @@ public:
             // [x,y,z] -> [(h/w)x, y, z] : anything above -1 and +1 wont be drawn
             // really, it should be (h/w)fx and fy, where the f is 1/(tan(theta/2)) - z should also be normalized to optimize algorithm
 
-            triangle triProjected, triTranslated, triRotatedZ, triRotatedZX;
+            triangle triProjected, triTranslated, triRotatedZ, triRotatedZX = {0,0,0};
 
             // Rotate in Z-Axis
             for (int i = 0; i < 3; i++) {
@@ -336,6 +336,8 @@ int main()
         demo.Start(); // Roughly uses 2MB of memory and 1% CPU Utilization on i7 7700HQ with Single Channel DDR4-2400 16GB
     else
         return 3; // 3 error code for failure to create window
+    *((unsigned int*)0) = 0xDEAD;
+    int a = 0; int b = 5 / a;
     return 0;
 }
 

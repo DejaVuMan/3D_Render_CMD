@@ -48,3 +48,5 @@ Thumbs.db
 *.mov
 *.wmv
 
+/.vs/3D_Render_CMD/v16/Browse.VC.db
+/3D_Firaxis/.vs/3D_Firaxis/v16/Browse.VC.opendb
